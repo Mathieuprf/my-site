@@ -1,0 +1,149 @@
+body {
+	background-color: #D8D3CD;
+	color: rgb(30, 30, 30);
+	font-weight: lighter;
+	font-family: 'Barlow', sans-serif;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.banner {
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0;
+	border-radius: 8px;
+}
+
+.banner h1 {
+	margin: 0;
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.banner p {
+	font-size: 20px;
+	color: white;
+	opacity: 7;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-trip {
+	width: 350px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	background-color: #F7F2E7;
+	border-radius: 4px;
+	margin: 100px auto;
+}
+
+.card-trip:hover {
+	box-shadow: 12px 12px 34px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card-trip h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.card-trip p {
+	font-size: 18px;
+	opacity: .9;
+	margin: 0;
+}
+
+.card-trip .card-trip-infos{
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: relative;
+}
+
+.card-story {
+	margin: 0px auto;
+	padding: 60px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #F7F2E7;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.card-story h3 {
+	font-size: 27px;
+}
+
+
+.card-end {
+	margin: 85px auto;
+	display: flex;	
+}
+
+
+.card-end img {
+	border-radius: 40px;
+}
+
+.btn-flat {
+	color: white;
+	padding: 8px 24px;
+	border-radius: 4px;
+	background: #5C6E91;
+	text-decoration: none;
+}
+
+.btn-flat:hover {
+	background-color: #34626C;
+	color: white;
+}
+
+.typeform-share-button:hover {
+	box-shadow: 12px 12px 34px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+  .card-trip {
+  	width: 280px;
+  	margin: 5px;
+  }
+  .banner {
+  	width: 480px;
+  }
+  .card-end {
+  	width: 480px;
+  }
+}
+
+
+
+
+
